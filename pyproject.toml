@@ -1,0 +1,26 @@
+[project]
+name = "lse-trading-agent"
+version = "2.0.0"
+description = "FTSE 350 trading analysis agent for OpenClaw"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+authors = [{ name = "Ankit Aglawe", email = "aglawe.ankit@gmail.com" }]
+
+dependencies = [
+    "yfinance>=0.2.36",
+    "pandas>=2.2.0",
+    "pandas-ta>=0.3.14b1",
+    "numpy>=1.26.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ankit-aglawe/openclaw-lse-trading-agent"
+Repository = "https://github.com/ankit-aglawe/openclaw-lse-trading-agent"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
